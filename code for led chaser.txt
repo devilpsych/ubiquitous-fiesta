@@ -1,0 +1,83 @@
+int led1 = 13; //first we should define all pins 
+int led2 = 12;
+int  led3 = 11;
+int led4 = 10;
+int led5 = 9;
+int led6 = 8;
+int led7 = 7;
+int  led8 = 6;
+int led9 = 5;
+int led10 = 4;
+int led11 = 3;
+int led12 = 2;
+
+void  setup() {
+// put your setup code here, to run once:
+// secondly we should  deside if the are output or input and of course led's are output  
+pinMode(13,OUTPUT);
+pinMode(12,OUTPUT);
+pinMode(11,OUTPUT);
+pinMode(10,OUTPUT);
+pinMode(9,OUTPUT);
+pinMode(8,OUTPUT);
+pinMode(7,OUTPUT);
+pinMode(6,OUTPUT);
+pinMode(5,OUTPUT);
+pinMode(4,OUTPUT);
+pinMode(3,OUTPUT);
+pinMode(2,OUTPUT);
+}
+
+void  loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(led1,HIGH);//  here we will make the first pin high and the second pin high and so on.
+delay(100);
+digitalWrite(led2,HIGH);
+delay(100);
+digitalWrite(led3,HIGH);
+delay(100);
+digitalWrite(led4,HIGH);
+delay(100);
+digitalWrite(led5,HIGH);
+delay(100);
+digitalWrite(led6,HIGH);
+delay(100);
+digitalWrite(led7,HIGH);
+delay(100);
+digitalWrite(led8,HIGH);
+delay(100);
+digitalWrite(led9,HIGH);
+delay(100);
+digitalWrite(led10,HIGH);
+delay(100);
+digitalWrite(led11,HIGH);
+delay(100);
+digitalWrite(led12,HIGH);
+delay(100);
+digitalWrite(led1,LOW);
+delay(100);
+digitalWrite(led2,LOW);
+delay(100);
+digitalWrite(led3,LOW);
+delay(100);
+digitalWrite(led4,LOW);
+delay(100);
+digitalWrite(led5,LOW);
+delay(100);
+digitalWrite(led6,LOW);
+delay(100);
+digitalWrite(led7,LOW);
+delay(100);
+digitalWrite(led8,LOW);
+delay(100);
+digitalWrite(led9,LOW);
+delay(100);
+digitalWrite(led10,LOW);
+delay(100);
+digitalWrite(led11,LOW);
+delay(100);
+digitalWrite(led12,LOW);
+delay(100);
+
+
+}
